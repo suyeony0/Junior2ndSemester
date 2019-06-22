@@ -1,0 +1,13 @@
+Receiver operating curve(ROC) : 이진 분류 시스템의 성능평가 기법
+
+x축은  False positive rate 이고 y축은 true positive rate 이다.
+
+false positive rate = false positive의 수 / 정답의 negative 수
+즉, 진짜 negative인 것중에 모델이 positive라고 잘못 예측한 것의 비율
+
+true positive rate = true positive의 수 / 정답의 positive 수
+즉, 정답이 positive인 것들중에서 정말로 정답을 맞춘 수의 비율
+
+참고) true negative rate = true negative의 수 / 정답의 negative 수
+
+Area under the curve(AUC) : 곡선 아래의 면적, 이것이 넓을수록 모델의 정확도가 높다고 판단한다.
